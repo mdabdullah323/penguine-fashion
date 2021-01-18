@@ -1,0 +1,63 @@
+.top-part{
+  background-color: cyan;
+}
+h1{
+  color: orange;
+  font-size: 50px;
+
+}
+.title{
+  color: blue;
+}
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 50%;
+    height: 0;
+    }
+button{
+    background-color:hotpink;
+    color: white;
+    border-radius: 10px;
+    box-shadow: none;
+    height: 50px;
+    width: 150px;
+}
+#carouselExampleControls{
+    margin: 100px 0px;
+}
+.card-deck{
+    margin: 100px 0px;
+}
+.logo{
+    width: 400px;
+}
+.footer{
+    background: #000;
+    color: #fff;
+  }
+  .fab{
+    padding-left: 10px;
+  }
+  .cont-btn {
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .cont-btn:hover, .cont-btn:focus, .cont-btn:active {
+    
+    animation-name: slide-btn;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+  }
+  h3{
+    color: limegreen;
+  }
+  h4{
+    color: royalblue;
+    font-size: 40px;
+  }
+  .icon{
+    width: 30px;
+  }
